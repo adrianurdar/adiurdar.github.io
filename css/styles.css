@@ -271,7 +271,7 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: apercu_proregular,Helvetica Neue,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     cursor: default
 }
 
@@ -641,7 +641,7 @@ h1,h2,h3 {
 }
 
 .hero-text,.project-highlight {
-    font-family: circular_stdregular,Helvetica Neue,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 7vw;
     font-weight: 900;
     line-height: 1.25;
@@ -719,7 +719,7 @@ h1,h2,h3 {
 }
 
 .worked-with--label {
-    font-family: apercu_proregular,Helvetica Neue,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: .8em;
     font-weight: 600;
     padding-bottom: .5em;
@@ -730,7 +730,7 @@ h1,h2,h3 {
 }
 
 .available {
-    font-family: circular_stdregular,Helvetica Neue,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     position: relative;
     font-size: 1.25em;
     line-height: 1.2;
