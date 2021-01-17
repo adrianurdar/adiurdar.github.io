@@ -23,14 +23,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/631836c9ef.js" crossorigin="anonymous"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175228792-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'UA-175228792-1');
+        gtag('config', 'UA-175228792-1');
     </script>
 
     <!-- Hotjar Tracking Code for adiurdar.com -->
@@ -50,12 +53,28 @@
     <header class="about table">
         <div class="table-cell">
             <div class="inner clearfix">
+
                 <!-- SOCIAL -->
-                <h1>
-                    <a class="logo" target="_blank" href="https://www.linkedin.com/in/adrianurdar/">LinkedIn • </a>
-                    <a class="logo" target="_blank" href="mailto:adrianurdar@gmail.com">Email • </a>
-                    <a class="logo" target="_blank" href="files/cv.pdf">CV</a>
-                </h1>
+                <nav class="social">
+                    <ul class="inline">
+                        <li>
+                            <a class="social-link" target="_blank" href="https://www.linkedin.com/in/adrianurdar/"><i class="fab fa-linkedin-in"></i> LinkedIn • </a>
+                        </li>
+                        <li>
+                            <a class="social-link" target="_blank" href="https://github.com/adrianurdar"><i class="fab fa-github"></i> Portfolio • </a>
+                        </li>
+                        <li>
+                            <a class="social-link" target="_blank" href="mailto:adrianurdar@gmail.com"><i class="fas fa-envelope"></i> Email • </a>
+                        </li>
+                        <li>
+                            <a class="social-link" target="_blank" href="files/cv.pdf"><i class="fas fa-file-download"></i> CV • </a>
+                        </li>
+                        <li>
+                            <a class="social-link" href="#contact"> Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
 
                 <div class="profile">
                     <h2 class="hero-text">
@@ -67,19 +86,21 @@
                             <span class="js-typer-string">lives in Brasov, Romania</span>
                         </span>
                     </h2>
+
+                    <!-- Anchors -->
                     <nav class="social">
                         <ul class="inline">
                             <li>
-                                <a class="social-link" href="#work">Work experience</a>
+                                <a class="social-link" href="#product-management"><i class="fab fa-product-hunt"></i> Product Management • </a>
                             </li>
                             <li>
-                                <a class="social-link" href="#portfolio">Portfolio</a>
+                                <a class="social-link" href="#web-development"><i class="fas fa-code-branch"></i> Web Development • </a>
                             </li>
                             <li>
-                                <a class="social-link" href="#education">Education & Certifications</a>
+                                <a class="social-link" href="#chatbot-development"><i class="fas fa-robot"></i> Chatbot Development • </a>
                             </li>
                             <li>
-                                <a class="social-link" href="#contact">Contact information</a>
+                                <a class="social-link" href="#it-consultancy"><i class="fas fa-id-card"></i> Consultancy Projects</a>
                             </li>
                         </ul>
                     </nav>
@@ -87,13 +108,16 @@
             </div>
         </div>
     </header>
+
     <div class="browser-height"></div>
     <footer class="footer">
         <nav class="projects">
             <!-- WORK EXPERIENCE -->
+
+            <!-- Product Management -->
             <div class="worked-with" style="padding-bottom: 0;">
-                <a name="work"></a>
-                <div class="inner worked-with--label">Work experience</div>
+                <a name="product-management"></a>
+                <div class="inner worked-with--label">PRODUCT MANAGEMENT</div>
             </div>
             <ul>
                 <li>
@@ -102,7 +126,7 @@
                             <h3 class="project-highlight">ScholarshipApp</h3>
                         </div>
                         <div class="inner">
-                            <p class="project-role">Product Manager (2019-present)</p>
+                            <p class="project-role">2019-present</p>
                         </div>
                     </a>
                 </li>
@@ -112,27 +136,25 @@
                             <h3 class="project-highlight">Future Minds Fund</h3>
                         </div>
                         <div class="inner">
-                            <span class="project-role">Product Owner (2020)</span>
+                            <span class="project-role">2020-2021</span>
                         </div>
                     </a>
                 </li>
+            </ul>
+
+            <!-- Web Development -->
+            <div class="worked-with" style="padding-bottom: 0;">
+                <a name="web-development"></a>
+                <div class="inner worked-with--label">WEB DEVELOPMENT</div>
+            </div>
+            <ul>
                 <li>
                     <a class="project-link" target="_blank" href="#">
                         <div class="inner inner--link">
                             <h3 class="project-highlight">Gardos</h3>
                         </div>
                         <div class="inner">
-                            <span class="project-role">Developer (2020)</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://www.mailo.dev/">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Mailo Dev</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Consultant (2020)</span>
+                            <span class="project-role">2020</span>
                         </div>
                     </a>
                 </li>
@@ -142,27 +164,25 @@
                             <h3 class="project-highlight">Fresh Food Factory</h3>
                         </div>
                         <div class="inner">
-                            <span class="project-role">Developer (2020)</span>
+                            <span class="project-role">2020</span>
                         </div>
                     </a>
                 </li>
+            </ul>
+
+            <!-- ChatBots Development -->
+            <div class="worked-with" style="padding-bottom: 0;">
+                <a name="chatbot-development"></a>
+                <div class="inner worked-with--label">CHATBOT DEVELOPMENT</div>
+            </div>
+            <ul>
                 <li>
                     <a class="project-link" target="_blank" href="https://www.youtube.com/watch?v=w-2UVkEIhlk">
                         <div class="inner inner--link">
                             <h3 class="project-highlight">Rom Decor</h3>
                         </div>
                         <div class="inner">
-                            <span class="project-role">Developer (2019)</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://www.instagram.com/kunis.boutique/">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Kunis Boutique</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Consultant (2019)</span>
+                            <span class="project-role">2019</span>
                         </div>
                     </a>
                 </li>
@@ -172,7 +192,7 @@
                             <h3 class="project-highlight">Smart &Slim</h3>
                         </div>
                         <div class="inner">
-                            <span class="project-role">Developer (2019)</span>
+                            <span class="project-role">2019</span>
                         </div>
                     </a>
                 </li>
@@ -182,17 +202,7 @@
                             <h3 class="project-highlight">Stop Smoking Romania</h3>
                         </div>
                         <div class="inner">
-                            <span class="project-role">Developer (2019)</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://www.facebook.com/SMARTLaundryBrasov">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Smart Laundry</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Consultant (2019)</span>
+                            <span class="project-role">2019</span>
                         </div>
                     </a>
                 </li>
@@ -202,173 +212,199 @@
                             <h3 class="project-highlight">Furry First</h3>
                         </div>
                         <div class="inner">
-                            <span class="project-role">Developer (2019)</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://scholarshipowl.com">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">ScholarshipOwl</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Customer Success Manager (2017-2020)</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Marketing Research Solutions</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Business Development Manager (2011-2017)</span>
+                            <span class="project-role">2019</span>
                         </div>
                     </a>
                 </li>
             </ul>
+
+            <!-- IT Consultancy -->
+            <div class="worked-with" style="padding-bottom: 0;">
+                <a name="it-consultancy"></a>
+                <div class="inner worked-with--label">IT CONSULTANCY</div>
+            </div>
+            <ul>
+                <li>
+                    <a class="project-link" target="_blank" href="https://www.mailo.dev/">
+                        <div class="inner inner--link">
+                            <h3 class="project-highlight">Mailo Dev</h3>
+                        </div>
+                        <div class="inner">
+                            <span class="project-role">2020</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="project-link" target="_blank" href="https://www.kunis-boutique.ro/">
+                        <div class="inner inner--link">
+                            <h3 class="project-highlight">Kunis Boutique</h3>
+                        </div>
+                        <div class="inner">
+                            <span class="project-role">2019</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="project-link" target="_blank" href="https://www.facebook.com/SMARTLaundryBrasov">
+                        <div class="inner inner--link">
+                            <h3 class="project-highlight">Smart Laundry</h3>
+                        </div>
+                        <div class="inner">
+                            <span class="project-role">2019</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
             <div class="worked-with">
-                <div class="inner worked-with--label">Worked With</div>
+                <div class="inner worked-with--label">Previous Work Experience</div>
                 <div class="inner">
-                    <a href="https://scholarshipowl.com" target="_blank">ScholarshipOwl</a>,
-                    <a href="https://futuremindsfund.org" target="_blank">FutureMindsFund</a>,
-                    <a href="#" target="_blank">Gardos</a>,
-                    <a href="https://www.mailo.dev/" target="_blank">Mailo Dev</a>,
-                    <a href="https://www.youtube.com/watch?v=L6yAYFZSMzQ" target="_blank">FreshFoodFactory</a>,
-                    <a href="https://rom-decor.ro" target="_blank">Rom Decor</a>,
-                    <a href="https://www.instagram.com/kunis.boutique/" target="_blank">Kunis Boutique</a>,
-                    <a href="https://furryfirst.com" target="_blank">Furry First</a>,
-                    <a href="https://smartandslim.shop/" target="_blank">Smart &Slim</a>,
-                    <a href="https://www.facebook.com/Antismoking.romania" target="_blank">Stop Smoking Romania</a>,
-                    <a href="https://www.facebook.com/SMARTLaundryBrasov" target="_blank">Smart Laundry</a>,
-                    <span>Marketing Research Solutions</span>
+                    <ul>
+                        <li>
+                            <p>
+                                2017-2020
+                                <br />
+                                <a href="https://scholarshipowl.com" target="_blank">
+                                    <b>Customer Success Manager</b>
+                                </a>
+                                <br />
+                                ScholarshipOwl
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2014-2017
+                                <br />
+                                <b>Business Development Manager</b>
+                                <br />
+                                Marketing Research Solutions
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2011-2014
+                                <br />
+                                <b>Business Development Representative</b>
+                                <br />
+                                Marketing Research Solutions
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
-            <!-- PORTFOLIO -->
-            <div class="worked-with" style="padding-bottom: 0;">
-                <a name="portfolio"></a>
-                <div class="inner worked-with--label">Portfolio (Projects implemented after taking the following courses)</div>
-            </div>
-            <ul>
-                <li>
-                    <a class="project-link" target="_blank" href="https://github.com/adrianurdar/100DaysOfCode-Bootcamp">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">#100DaysOfCode</h3>
-                        </div>
-                        <div class="inner">
-                            <p class="project-role">Python Bootcamp</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://github.com/adrianurdar/Automate-The-Boring-Stuff">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Automate the Boring Stuff</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Python</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://github.com/adrianurdar/WhatsApp-ChatBots">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">WhatsApp Chatbots</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Python</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://github.com/adrianurdar/CS50W">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">CS50W</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Python (Flask, Django), JavaScript, HTML, CSS</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://github.com/adrianurdar/CS50">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">CS50</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">Python</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://github.com/adrianurdar/FreeCodeCamp">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">FreeCodeCamp</h3>
-                        </div>
-                        <div class="inner">
-                            <span class="project-role">JavaScript, Python</span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
 
             <!-- EDUCATION -->
-            <div class="worked-with" style="padding-bottom: 0;">
-                <a name="education"></a>
-                <div class="inner worked-with--label">Education &Certifications</div>
-            </div>
-            <ul>
-                <li>
-                    <a class="project-link" target="_blank" href="images/certif_pm.webp">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Project Management Professional (PMP)</h3>
-                        </div>
-                        <div class="inner">
-                            <p class="project-role">Romanian Ministry of Labor and Social Justice (Nov, 2019)</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="images/certif_formator.webp">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Corporate Trainer</h3>
-                        </div>
-                        <div class="inner">
-                            <p class="project-role">Romanian Ministry of Labor and Social Justice (Mar, 2019)</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://unitbv.ro">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Bachelor in Business Administration</h3>
-                        </div>
-                        <div class="inner">
-                            <p class="project-role">"Transylvania" University (2008-2011)</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="project-link" target="_blank" href="https://moisilbrasov.ro">
-                        <div class="inner inner--link">
-                            <h3 class="project-highlight">Computer Science</h3>
-                        </div>
-                        <div class="inner">
-                            <p class="project-role">"Grigore Moisil" Computer Science National College (2004-2008)</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
             <div class="worked-with">
-                <div class="inner worked-with--label">Other Certifications</div>
+                <div class="inner worked-with--label">Education</div>
                 <div class="inner">
-                    <a href="https://www.freecodecamp.org/certification/adrianurdar/front-end-libraries" target="_blank">freeCodeCamp - Front End Libraries</a>,
-                    <a href="https://www.freecodecamp.org/certification/adrianurdar/javascript-algorithms-and-data-structures" target="_blank">freeCodeCamp - JavaScript Algorithms and Data Structures</a>,
-                    <a href="https://certificates.cs50.io/97ef069f-52e7-49a7-830a-bd8995348292.png" target="_blank">CS50b - Computer Science for Business Professionals</a>,
-                    <a href="https://certificates.cs50.io/771d5756-ccd9-4f4d-ae28-9fba4d32ae7b.png" target="_blank">CS50x - Introduction to Computer Science</a>,
-                    <span>ManyChat Certified Agency Partner</span>,
-                    <a href="https://www.freecodecamp.org/certification/adrianurdar/responsive-web-design" target="_blank">freeCodeCamp - Responsive Web Design</a>
+                    <ul>
+                        <li>
+                            <p>
+                                2019
+                                <br />
+                                <a href="images/certif_pm.webp" target="_blank">
+                                    <b>Project Management Professional (PMP)</b>
+                                </a>
+                                <br />
+                                Romanian Ministry of Labor and Social Justice
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2019
+                                <br />
+                                <a href="images/certif_formator.webp" target="_blank">
+                                    <b>Corporate Trainer</b>
+                                </a>
+                                <br />
+                                Romanian Ministry of Labor and Social Justice
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2008-2011
+                                <br />
+                                <b>Bachelor in Business Administration</b>
+                                <br />
+                                "Transylvania" University
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2004-2008
+                                <br />
+                                <b>Computer Science</b>
+                                <br />
+                                "Grigore Moisil" Computer Science National College
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="worked-with">
+                <div class="inner worked-with--label">Other Courses & Certifications</div>
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <p>
+                                2020 - 2021
+                                <br />
+                                <a href="https://github.com/adrianurdar/100DaysOfCode-Bootcamp" target="_blank">
+                                    <b>#100DaysOfCode</b>
+                                </a>
+                                <br />
+                                The App Brewery
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2020
+                                <br />
+                                <b>CS50W - Web Development with Python and JavaScript</b>
+                                <br />
+                                <a href="https://certificates.cs50.io/97ef069f-52e7-49a7-830a-bd8995348292.png" target="_blank">
+                                    <b>CS50B - Computer Science for Business Professionals</b>
+                                </a>
+                                <br />
+                                <a href="https://certificates.cs50.io/771d5756-ccd9-4f4d-ae28-9fba4d32ae7b.png" target="_blank">
+                                    <b>CS50X - Introduction to Computer Science</b>
+                                </a>
+                                <br />
+                                HarvardX
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2020
+                                <br />
+                                <a href="https://www.freecodecamp.org/certification/adrianurdar/front-end-libraries" target="_blank">
+                                    <b>Front End Libraries</b>
+                                </a>
+                                <br />
+                                <a href="https://www.freecodecamp.org/certification/adrianurdar/javascript-algorithms-and-data-structures" target="_blank">
+                                    <b>JavaScript Algorithms and Data Structures</b>
+                                </a>
+                                <br />
+                                <a href="https://www.freecodecamp.org/certification/adrianurdar/responsive-web-design" target="_blank">
+                                    <b>Responsive Web Design</b>
+                                </a>
+                                <br />
+                                FreeCodeCamp
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2019
+                                <br />
+                                <b>Certified Agency Partner</b>
+                                </a>
+                                <br />
+                                ManyChat
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -377,22 +413,23 @@
                 <a name="contact"></a>
                 <div class="inner worked-with--label">Contact information</div>
                 <div class="inner">
-                    Adrian Urdar
+                    <b>Adrian R. Urdar</b>
                 </div>
                 <div class="inner">
-                    Product Management • IT Consultancy • Python Programming
+                    PM • Python Developer
                 </div>
                 <div class="inner">
-                    Brasov, RO
+                    <b>E:</b> <a href="mailto:adrian.urdar@gmail.com" target="_blank">adrian.urdar@gmail.com</a>
                 </div>
                 <div class="inner">
-                    <a href="mailto:adrian.urdar@gmail.com" target="_blank">adrian.urdar@gmail.com</a>
+                    <b>P:</b> <a href="tel:0040732513832" target="_blank">+40 (732) 513-832</a>
+                </div>
+                <br />
+                <div class="inner">
+                    <b>IT Automation • Software Development</b>
                 </div>
                 <div class="inner">
-                    <a href="tel:0040732513832" target="_blank">+40 (732) 513-832</a>
-                </div>
-                <div class="inner">
-                    <a href="https://adiurdar.com" target="_blank">adiurdar.com</a>
+                    <a href="https://adiurdar.com">adiurdar.com</a>
                 </div>
             </div>
         </nav>
