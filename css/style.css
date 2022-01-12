@@ -4,6 +4,7 @@ body {
     line-height: 2;
 }
 
+/* Navbar */
 nav {
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -21,6 +22,14 @@ nav {
     background-color: #fff!important;
 }
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("../icons/menu.png");
+}
+
+.custom-toggler.navbar-toggler {
+    border: none;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -32,23 +41,40 @@ a:hover {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     line-height: 1;
 }
 
-@media (min-width: 768px)
-h1 {
-    font-size: 8rem;
-}
-
 h2 {
-    font-size: 4rem;
+    font-size: 2rem;
     padding-top: 5rem;
     line-height: 1;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 1.5rem;
+}
+
+.secondary-text {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    .blockquote {
+        font-size: 1.5rem;
+    }
 }
 
 .main-section {
@@ -57,7 +83,7 @@ h3 {
 }
 
 .blockquote {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 section .blockquote {
@@ -91,3 +117,7 @@ li {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+/* Desktop */
+
+
