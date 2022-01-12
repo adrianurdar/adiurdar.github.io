@@ -5,6 +5,14 @@ body {
 }
 
 /* Navbar */
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler:focus-visible {
+    outline: none;
+}
+
 nav {
     text-transform: uppercase;
     font-size: 0.8rem;
