@@ -1,7 +1,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #000;
+    color: #bdc1c6;
     line-height: 2;
+    background: #202124;
 }
 
 /* Navbar */
@@ -22,12 +23,16 @@ nav {
     padding-top: 1rem;
 }
 
+.navbar-light .navbar-brand {
+    color: #bdc1c6!important;
+}
+
 .nav-link {
-    color: #000!important;
+    color: #bdc1c6!important;
 }
 
 .bg-light {
-    background-color: #fff!important;
+    background-color: #202124!important;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -40,27 +45,32 @@ nav {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #bdc1c6;
     font-weight: 600;
 }
 
 a:hover {
-    color: #000;
+    color: #bdc1c6;
 }
 
 h1 {
     font-size: 4rem;
     line-height: 1;
+    font-weight: 900;
+    color: #cf0;
 }
 
 h2 {
     font-size: 2rem;
     padding-top: 5rem;
     line-height: 1;
+    font-weight: 900;
 }
 
 h3 {
     font-size: 1.5rem;
+    font-weight: 900;
+    color: #cf0;
 }
 
 .secondary-text {
@@ -105,7 +115,7 @@ li {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #000;
+  color: #bdc1c6;
 }
 
 .hover-underline-animation:after {
@@ -116,7 +126,7 @@ li {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #bdc1c6;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -124,6 +134,11 @@ li {
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.card {
+    background-color: #202123;
+    border: 1px solid rgb(189, 193, 198, .125);
 }
 
 /* Desktop */
